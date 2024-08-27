@@ -1,0 +1,52 @@
+.card {
+    border-radius: 15px;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    background-color: transparent;
+}
+
+.larg-card {
+    width: 100%;
+    max-width: 385px;
+    border-radius: 30px;
+}
+
+.small-card {
+    width: 100%;
+    max-width: 228px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .larg-card {
+        max-width: 100%;
+    }
+    
+    .small-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+}

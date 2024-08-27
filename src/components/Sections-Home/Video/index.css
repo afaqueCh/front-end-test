@@ -1,0 +1,43 @@
+
+video {
+  border-radius: 15px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.play-icon i {
+  font-size: 24px;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .play-icon {
+    padding: 10px;
+  }
+  
+  .play-icon i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .play-icon {
+    padding: 8px;
+  }
+  
+  .play-icon i {
+    font-size: 18px;
+  }
+}
